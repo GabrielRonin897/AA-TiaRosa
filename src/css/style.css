@@ -1,0 +1,254 @@
+html{
+    color: #fff;
+    scroll-behavior:smooth;
+}
+body{
+    background: linear-gradient(#be6919f5, #160b01f5);
+    background-size: 120% 120%;
+    font-family:"Jost",sans-serif;
+    margin: 0 auto ;
+    max-width: 1120px;
+    background-color:liner;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+.cabecalho .logo{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    text-decoration: nome;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Dancing Script" ,sans-serif;
+}
+.cabecalho a:hover .logo{
+    color: rgb(70, 45, 0);
+    border: 2px solid rgb(70, 45, 0);
+    transition: 0.2s;
+}
+
+.menu {
+    margin-right: 10px;
+}
+.menu .botões {
+    list-style-type: none;
+    padding: 0;
+}
+.menu .botões li {
+    display: inline;
+    margin-right: 20px;
+}
+.menu .botões li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10cm;
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Dancing Script", sans-serif;
+}
+.menu .botões li:hover a
+{
+    color: rgb(70, 45, 0);
+    border: 2px solid rgb(70, 45, 0);
+    transition: 0.2s;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh -150px);
+    padding: 25px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 95%;
+}
+.home .informacoes h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 45px;
+    margin: 20px;
+}
+.home .informacoes p {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    margin: 10px;
+}
+.home .redes-sociais {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.home .redes-sociais a i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.home .redes-sociais a i:hover{
+    color: rgb(70, 45, 0);
+    border: 1px solid rgb(70, 45, 0);
+    transform: scale(1.1);
+}
+.home .redes-sociais .email{
+    border: 1px solid #fff;
+    border-radius: 50cm;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.home .redes-sociais .email:hover {
+    color: rgb(70, 45, 0);
+    border: 1px solid rgb(70, 45, 0);
+    transform: scale(1.1);
+}
+
+.home .container-foto{
+  
+    max-width: 1070px 800px;
+    width: 95%;
+
+}
+.home  .container-foto .foto.foto-ilustrativa{
+    width:  100%;
+    border-radius: 50px;
+}
+
+.cardapeio {
+    display: flex;
+    flex-direction: column ;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 25px;
+    max-width: 100%;
+}
+.cardapeio .titulo{
+    font-family: "Jost", sans-serif;
+    font-size: 45px;
+    margin: 20px;
+}
+.cardapeio  .titulo-texto{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.cardapeio .container-do-cadapeio {
+    display: flex;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 25px ;
+    max-width: 100%;
+}
+.container-do-cadapeio ul {
+    list-style: none;
+    padding: 0;
+}
+.container-do-cadapeio li {
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+.container-do-cadapeio h3 {
+    font-size: 25px;
+    margin: 15px;
+    width: 100%;
+    margin-right: 20px;
+    align-items: center;
+}
+.container-do-cadapeio img {
+    width: 100%;
+    max-width: 40%;
+    margin-right: 10px;
+    border-radius: 10px;
+    align-self: center;  
+}
+.container-do-cadapeio p {
+    width: 100%;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh -150px);
+    padding: 25px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+.vagas .vagas-de-emprego {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 95%;
+}
+.vagas .vagas-de-emprego h2{
+    font-family: "Jost", sans-serif;
+    font-size: 45px;
+    margin: 15px;
+}
+.vagas .vagas-de-emprego p{
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    margin: 15px;
+}
+.vagas .vagas-de-emprego .redes-vagas{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.vagas .vagas-de-emprego a i{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.vagas .vagas-de-emprego a i:hover {
+    color: rgb(70, 45, 0);
+    border: 1px solid rgb(70, 45, 0);
+    transform: scale(1.1);
+}
+.vagas .vagas-de-emprego .a-email {
+    border: 1px solid #fff;
+    border-radius: 50cm;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.vagas .vagas-de-emprego .a-email:hover{
+    color: rgb(70, 45, 0);
+    border: 1px solid rgb(70, 45, 0);
+    transform: scale(1.1);
+}
+
